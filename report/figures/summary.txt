@@ -1,0 +1,78 @@
+HELD-OUT, per version: mean and std ACROSS SEEDS of per-seed totals/means
+                      levels      actions       invalid       
+                        mean  std    mean   std    mean    std
+version                                                       
+dqn_v0_baseline          0.0  0.0   153.1   3.1     0.0    0.0
+dqn_v1_memory            0.0  0.0   202.3  88.3    27.8   48.1
+dqn_v2_memory_novelty    0.0  0.0   202.3  88.3    83.3  144.3
+dqn_v2_novelty_only      0.0  0.0   279.3  43.3   166.7  144.3
+ppo_v0_baseline          0.0  0.0   151.3   0.0     0.0    0.0
+ppo_v1_memory            0.0  0.0   151.3   0.0     0.0    0.0
+ppo_v2_memory_novelty    0.0  0.0   127.1  42.0     0.0    0.0
+ppo_v2_novelty_only      0.0  0.0   151.3   0.0     0.0    0.0
+random_v0                0.0  0.0   152.6   0.1     0.0    0.0
+
+HELD-OUT invalid actions by game (mean over seeds)
+game                   cn04  ka59  m0r0   sb26   su15   vc33
+version                                                     
+dqn_v0_baseline         0.0   0.0   0.0    0.0    0.0    0.0
+dqn_v1_memory           0.0   0.0   0.0    0.0    0.0  167.0
+dqn_v2_memory_novelty   0.0   0.0   0.0  167.0  167.0  167.0
+dqn_v2_novelty_only     0.0   0.0   0.0  333.0  333.0  333.0
+ppo_v0_baseline         0.0   0.0   0.0    0.0    0.0    0.0
+ppo_v1_memory           0.0   0.0   0.0    0.0    0.0    0.0
+ppo_v2_memory_novelty   0.0   0.0   0.0    0.0    0.0    0.0
+ppo_v2_novelty_only     0.0   0.0   0.0    0.0    0.0    0.0
+random_v0               0.0   0.0   0.0    0.0    0.0    0.0
+
+HELD-OUT actions used by game (mean over seeds)
+game                   cn04   ka59   m0r0   sb26   su15   vc33
+version                                                       
+dqn_v0_baseline        75.0  100.0  151.0  355.0  188.0   50.0
+dqn_v1_memory          75.0  100.0  151.0  500.0  188.0  200.0
+dqn_v2_memory_novelty  75.0  100.0  151.0  500.0  188.0  200.0
+dqn_v2_novelty_only    75.0  100.0  151.0  500.0  500.0  350.0
+ppo_v0_baseline        75.0  100.0  151.0  500.0   32.0   50.0
+ppo_v1_memory          75.0  100.0  151.0  500.0   32.0   50.0
+ppo_v2_memory_novelty  75.0  100.0  151.0  355.0   32.0   50.0
+ppo_v2_novelty_only    75.0  100.0  151.0  500.0   32.0   50.0
+random_v0              75.0  100.0  151.0  500.0   39.0   50.0
+
+TRAINING (Monitor logs). levels_in_training = true reward sum (non-novelty runs only)
+                  version  seed  episodes  mean_episode_length  levels_in_training  shaped_return_total  train_minutes
+0         dqn_v0_baseline     0       157                  315                 3.0                  NaN            7.1
+1         dqn_v0_baseline     1       150                  331                 7.0                  NaN            6.9
+2         dqn_v0_baseline     2       150                  332                10.0                  NaN            7.9
+3           dqn_v1_memory     0       151                  328                 5.0                  NaN            7.7
+4           dqn_v1_memory     1       153                  327                 0.0                  NaN            7.0
+5           dqn_v1_memory     2       151                  330                 1.0                  NaN            7.0
+6   dqn_v2_memory_novelty     0       211                  237                 NaN               2030.4            6.3
+7   dqn_v2_memory_novelty     1       192                  260                 NaN               1860.4            6.4
+8   dqn_v2_memory_novelty     2       207                  241                 NaN               2042.3            6.6
+9     dqn_v2_novelty_only     0       201                  249                 NaN               1949.9            6.0
+10    dqn_v2_novelty_only     1       191                  261                 NaN               1986.8            6.0
+11    dqn_v2_novelty_only     2       198                  250                 NaN               1936.3            5.9
+12        ppo_v0_baseline     0       259                  193                 6.0                  NaN            9.5
+13        ppo_v0_baseline     1       254                  196                15.0                  NaN           12.5
+14        ppo_v0_baseline     2       253                  198                17.0                  NaN            8.6
+15          ppo_v1_memory     0       271                  185                11.0                  NaN            7.1
+16          ppo_v1_memory     1       269                  186                 8.0                  NaN            7.0
+17          ppo_v1_memory     2       271                  184                19.0                  NaN            7.0
+18  ppo_v2_memory_novelty     0       302                  166                 NaN               2930.9            7.0
+19  ppo_v2_memory_novelty     1       290                  172                 NaN               2782.3            7.0
+20  ppo_v2_memory_novelty     2       290                  173                 NaN               2893.8            7.1
+21    ppo_v2_novelty_only     0       282                  177                 NaN               2798.1            6.7
+22    ppo_v2_novelty_only     1       288                  174                 NaN               2828.2            6.8
+23    ppo_v2_novelty_only     2       290                  172                 NaN               2864.6            7.0
+
+Training minutes per version (mean over seeds)
+version
+dqn_v0_baseline           7.3
+dqn_v1_memory             7.2
+dqn_v2_memory_novelty     6.4
+dqn_v2_novelty_only       6.0
+ppo_v0_baseline          10.2
+ppo_v1_memory             7.0
+ppo_v2_memory_novelty     7.0
+ppo_v2_novelty_only       6.8
+Total training minutes, all 24 runs: 174

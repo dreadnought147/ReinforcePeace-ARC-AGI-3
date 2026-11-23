@@ -1,0 +1,12 @@
+,levels_completed,levels_completed,won,actions_used,actions_used,invalid_actions,invalid_actions,wall_seconds
+,mean,std,mean,mean,std,mean,std,mean
+version,,,,,,,,
+dqn_v0_baseline,0.0,0.0,0.0,153.11,163.95,0.0,0.0,0.44
+dqn_v1_memory,0.0,0.0,0.0,202.33,193.33,27.78,117.85,0.51
+dqn_v2_memory_novelty,0.0,0.0,0.0,202.33,193.33,83.33,191.74,0.46
+dqn_v2_novelty_only,0.0,0.0,0.0,279.33,204.84,166.67,242.54,0.54
+ppo_v0_baseline,0.0,0.0,0.0,151.33,165.14,0.0,0.0,0.61
+ppo_v1_memory,0.0,0.0,0.0,151.33,165.14,0.0,0.0,0.47
+ppo_v2_memory_novelty,0.0,0.0,0.0,127.11,141.24,0.0,0.0,0.44
+ppo_v2_novelty_only,0.0,0.0,0.0,151.33,165.14,0.0,0.0,0.45
+random_v0,0.0,0.0,0.0,152.56,164.23,0.0,0.0,0.08

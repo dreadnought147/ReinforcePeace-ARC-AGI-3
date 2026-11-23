@@ -1,0 +1,6 @@
+Nominated class-leaderboard entry: submission 57654331
+  Agent: trained Maskable PPO with frame-stacking memory (ppo_v1_memory, seed 2)
+  Submitted: 2026-10-26 05:01:44 UTC
+  Public score: 0.00
+  Code: code/kaggle_submission_notebook_v2.ipynb (Kaggle notebook Version 2)
+The paper and report describe the approach demonstrated by this submission.

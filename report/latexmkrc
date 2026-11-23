@@ -1,0 +1,4 @@
+# latexmk settings for this report. wsl-build.sh compiles into build/, and BibTeX runs inside
+# build/, so tell it to also look one folder up for references.bib and rlj.bst.
+ensure_path('BIBINPUTS', '..');
+ensure_path('BSTINPUTS', '..');

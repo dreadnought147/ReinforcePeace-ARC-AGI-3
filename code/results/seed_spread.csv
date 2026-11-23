@@ -1,0 +1,10 @@
+version,mean,std
+dqn_v0_baseline,0.0,0.0
+dqn_v1_memory,0.0,0.0
+dqn_v2_memory_novelty,0.0,0.0
+dqn_v2_novelty_only,0.0,0.0
+ppo_v0_baseline,0.0,0.0
+ppo_v1_memory,0.0,0.0
+ppo_v2_memory_novelty,0.0,0.0
+ppo_v2_novelty_only,0.0,0.0
+random_v0,0.0,0.0

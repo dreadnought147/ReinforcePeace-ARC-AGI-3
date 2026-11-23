@@ -1,0 +1,7 @@
+,algorithm,version,levels_completed
+0,dqn,dqn_v1_memory,0.0
+1,dqn,dqn_v2_memory_novelty,0.0
+2,dqn,dqn_v2_novelty_only,0.0
+3,ppo,ppo_v1_memory,0.0
+4,ppo,ppo_v2_memory_novelty,0.0
+5,ppo,ppo_v2_novelty_only,0.0

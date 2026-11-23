@@ -1,0 +1,5 @@
+Elias Sepuru (1427726): probed the official game interface to confirm its fields (Task 0); implemented the ArcGymEnv adapter that defines the observation, the 70-action mapping, the availability mask, the reward and termination (Task 1); implemented the experiment runner that trains and evaluates every version over three seeds and resumes after interruptions (Task 7); and wrote the logs for these tasks.
+
+Banele Mkhize (2663814): set up the team workflow, task breakdown and shared code, and reviewed and integrated the tasks; implemented the evaluation protocol and random policy (Task 2), the Maskable PPO baseline (Task 4), the memory wrappers (Task 6) and the figures and Kaggle agent (Task 8); ran the experiments, made the Kaggle submissions and wrote the report.
+
+Paballo (3134698): implemented the DQN baseline with Stable-Baselines3, including its hyperparameters, training logs and periodic checkpoints, and the policy function used in evaluation (Task 3); implemented the count-based novelty wrapper that hashes screens, pays a decaying bonus, keeps the true reward separate and passes the action mask through (Task 5); and wrote the logs for these tasks.

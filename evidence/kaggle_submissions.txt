@@ -1,0 +1,6 @@
+Kaggle team: ReinforcePeace. Competition: arc-prize-2026-arc-agi-3
+Output of: kaggle competitions submissions arc-prize-2026-arc-agi-3
+
+ref       fileName            date (UTC)                  description                              status    publicScore
+57654331  submission.parquet  2026-10-26 05:01:44.183000  Trained PPO v1 memory seed 2 (sampling)  COMPLETE  0.00
+57627136  submission.parquet  2026-10-25 10:52:03.680000  Random starter agent (kit default)       COMPLETE  0.07
