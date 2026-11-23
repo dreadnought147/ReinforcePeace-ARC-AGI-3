@@ -6,8 +6,6 @@
 
 <p align="center">COMS4061A/COMS7071A RL Assignment 2026 (ARC-AGI-3)</p>
 
-<p align="center">Banele Mkhize (2663814), Elias Sepuru (1427726), Paballo (3134698)</p>
-
 ## Contents
 
 | Path | What it is |
